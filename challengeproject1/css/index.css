@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/architectsdaughter/v18/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Gentium Plus';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/gentiumplus/v1/Iurd6Ytw-oSPaZ00r2bNe8VZi5FN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  } 
+  
+  @font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRZWMf6.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v21/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    background-color: lavender;
+    background-image: url("https://thumbs.dreamstime.com/b/matrix-background-blue-light-binary-computer-code-vector-illustration-format-123375261.jpg");
+
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 80px;
+    font-weight: 900px;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0 auto;
+    margin: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+    font-family: 'Gentium Plus', Helvetica, sans-serif;
+    text-align: center;
+    padding: 0 20px 20px;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+table {
+    border-color: turquoise;
+    border-style: double;
+    border-width: 5px;
+    margin: 50px auto;
+    max-width: 1050px;
+}
+
+th {
+    background-color: plum;
+    font-family: 'Roboto Mono', Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 3px;
+} 
+
+td {
+    background-color: aliceblue;
+    font-family: 'Architects Daughter', Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.value {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+}
